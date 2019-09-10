@@ -1,3 +1,9 @@
+/* Developed By Asif while Learning Flutter
+    August 2019 
+*/
+
+
+
 import 'package:flutter/material.dart';
 import './dummy_data.dart';
 import './screens/filters_screen.dart';
@@ -5,7 +11,6 @@ import './models/meal.dart';
 import './screens/meal_detail_screen.dart';
 
 import './screens/category_meals_screen.dart';
-import './screens/categories_screen.dart';
 import './screens/tabs_screen.dart';
 
 void main() => runApp(MyApp());
@@ -70,6 +75,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'DeliMeals',
       theme: ThemeData(
         primarySwatch: Colors.pink,
